@@ -6,9 +6,9 @@ import protocols.Smartphone;
 import protocols.Telephone;
 
 public class IPhone implements Smartphone {
-    InternetBrowser internetBrowser;
-    MusicPlayer musicPlayer;
-    Telephone telephone;
+    private InternetBrowser internetBrowser;
+    private MusicPlayer musicPlayer;
+    private Telephone telephone;
 
     public IPhone(Telephone TelephoneStrategy, InternetBrowser InternetBrowserStrategy, MusicPlayer MusicPlayerStrategy) {
         this.telephone = TelephoneStrategy;
